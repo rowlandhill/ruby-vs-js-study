@@ -11,16 +11,7 @@ material. Instead, digest what you've read and repeat it in your own voice.
 Use `grunt test` to test your code.
 
 
-## FIBONACCI
-
-In `bin/fibonacci.js` please write the following:
-1. `sumFibs`. Use reduce to find the sum of the `fibs` array.
-2. `prodFibs`. Use array methods to find the product of the `fibs` array,
-    not including 0.
-3. `sumOdd`. Use array methods to find the sum of the odd numbers in the
-    `fibs` array.
-4. `prodEven`. Use array methods to find the product of the even numbers in the
-    `fibs` array, not including 0.
+## Comparison
 
 
 Describe three examples of differens between Ruby and Javasctipt?
@@ -29,7 +20,11 @@ Describe three examples of differens between Ruby and Javasctipt?
 <!-- your answer here -->
 ```
 
-## COMPARE: Ruby Versus Javascript :: String Interpolation
+## Ruby Versus Javascript :: String Interpolation
+
+What is another, perhaps more DRY-compliant way to write this in Ruby?
+
+Experiment in pry and place your answer below.
 
 ```ruby
 [1] pry(main)> name = "Jason"
@@ -43,14 +38,19 @@ Describe three examples of differens between Ruby and Javasctipt?
 <!-- your answer here -->
 ```
 
-## PEOPLE COUNT
+## Ruby vs. Javascript :: String Methods 
 
-In `lib/people-array.js`, write a function `women` that will count the number of
-women in an array of people.
-What are the differences between this function and the ruby funcion we did
-in class?
+1. Open pry in your terminal and input `str = "general assembly"`
+2. With what you now know about ruby methods, change the string into an array of characters so that the ouput reads : `["g", "e", "n", "e", "r", "a", "l", " ", "a", "s", "s", "e", "m", "b", "l", "y"]`
+3. Then change your new array back into a string with hyphens in between characters so that your result is `"g-e-n-e-r-a-l- -a-s-s-e-m-b-l-y"`.
+4. Even better if you can do so while removing the two `- -`'s between `general` and `assembly`
 
 ```md
 <!-- your answer here -->
 ```
-0Looking
+
+## What are three common "gotchas" in Ruby after learning Javscript.
+
+```md
+<!-- your answer here -->
+```
