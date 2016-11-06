@@ -38,10 +38,10 @@ Experiment in pry and place your answer below.
 <!-- your answer here -->
 ```
 
-## Ruby vs. Javascript :: String Methods 
+## Ruby vs. Javascript :: String Methods
 
-1. Open pry in your terminal and input `str = "general assembly"`
-2. With what you now know about ruby methods, change the string into an array of characters so that the ouput reads : `["g", "e", "n", "e", "r", "a", "l", " ", "a", "s", "s", "e", "m", "b", "l", "y"]`
+1. Open pry in your terminal and input `str = "ylbmessa lareneg`
+2. With what you now know about ruby methods, reverse the string so that the output reads `"general assembly"` change the string into an array of characters so that the ouput reads : `["g", "e", "n", "e", "r", "a", "l", " ", "a", "s", "s", "e", "m", "b", "l", "y"]`
 3. Then change your new array back into a string with hyphens in between characters so that your result is `"g-e-n-e-r-a-l- -a-s-s-e-m-b-l-y"`.
 4. Even better if you can do so while removing the two `- -`'s between `general` and `assembly`
 
