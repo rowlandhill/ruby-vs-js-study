@@ -33,27 +33,7 @@ left_operand = '1'
 right_operand = '2'
 
 sum = left_operand.to_i + right_operand.to_i
-```
-
-Write some JavaScript code that duplicates this functionality.
-
-```javascript
-// your answer here
-```
-
-## Ruby vs. JavaScript: Type Conversion
-
-Type conversion in Ruby is invoked by calling methods like `to_i` (to integer),
-`to_f` (to float), and `to_s` (to string).  Here is some Ruby code that
-declares two variables `left_operand` and `right_operand` to the strings `1` and
-`2`, respectively.  It then declares a variable called `sum` that converts both
-`left_operand` and `right_operand` to integers to add them.
-
-```ruby
-left_operand = '1'
-right_operand = '2'
-
-sum = left_operand.to_i + right_operand.to_i
+# sum: 3
 ```
 
 Write some JavaScript code that duplicates this functionality.
@@ -122,6 +102,7 @@ end
 boomhauer = Person.new('Jeff Boomhauer')
 
 boomhauer.hello
+# Output: Hello, my name is Jeff Boomhauer.
 ```
 
 Write some JavaScript code that duplicates this functionality.
@@ -139,7 +120,8 @@ JavaScript.  Here is some Ruby code that takes an array of natural numbers and f
 ```ruby
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-filtered_numbers = numbers.select { |number| number % 3 == 0 }
+filtered_numbers = numbers.select { |number| number % 3 == 0 }]
+# filtered_numbers: [3, 6, 9]
 ```
 
 Write some JavaScript code that uses the array `map()` method to duplicate this
@@ -159,6 +141,8 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const squares = numbers.map(number => {
   return number ** 2;
 });
+
+// squares: [1, 4, 9, 16, 25, 36, 49, 64, 81,100]
 ```
 
 Write some Ruby code that uses the Array `map` method and code blocks to
