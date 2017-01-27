@@ -115,7 +115,8 @@ Write some JavaScript code that duplicates this functionality.
 
 In Ruby, blocks are like anonymous functions that can be passed into methods,
 but cannot be referenced again later on; similar to callback functions in
-JavaScript.  Here is some Ruby code that takes an array of natural numbers and filters out the ones that are not multiples of 3.
+JavaScript.  Here is some Ruby code that takes an array of natural numbers and
+filters out the ones that are not multiples of 3.
 
 ```ruby
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -124,8 +125,8 @@ filtered_numbers = numbers.select { |number| number % 3 == 0 }]
 # filtered_numbers: [3, 6, 9]
 ```
 
-Write some JavaScript code that uses the array `map()` method to duplicate this
-functionality.
+Write some JavaScript code that uses the array `filter()` method to duplicate
+this functionality.
 
 ```javascript
 // your answer here
@@ -133,7 +134,8 @@ functionality.
 
 ## Ruby vs. JavaScript: Blocks and Callbacks, Part II
 
-Here is some JavaScript code that takes an array of natural numbers and uses `map()` to create a new array containing the squares of `numbers`.
+Here is some JavaScript code that takes an array of natural numbers and uses
+`map()` to create a new array containing the squares of `numbers`.
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
