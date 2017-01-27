@@ -144,7 +144,7 @@ const squares = numbers.map(number => {
   return number ** 2;
 });
 
-// squares: [1, 4, 9, 16, 25, 36, 49, 64, 81,100]
+// squares: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
 Write some Ruby code that uses the Array `map` method and code blocks to
