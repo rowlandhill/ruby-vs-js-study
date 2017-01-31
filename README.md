@@ -25,7 +25,7 @@ By the end of this, developers should be able to:
 -   Compare and contrast Ruby's and Node.js's REPL/interpreter.
 -   Compare and contrast Ruby's and JavaScript's basic language features and
     types.
--   Understand the core differences between Ruby and JavaScript
+-   Compare and contrast the core differences between Ruby and JavaScript
 
 ## Instructions
 
