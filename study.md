@@ -49,9 +49,9 @@ graves (\`) rather than single quotation marks (') or double quotation marks
 (").  For example,
 
 ```javascript
-const beverage = 'tea'.
+const beverage = 'tea'
 
-console.log(`Many people drink ${beverage}.`);
+console.log(`Many people drink ${beverage}.`)
 // Output: Many people like to drink tea.
 ```
 
@@ -121,7 +121,7 @@ filters out the ones that are not multiples of 3.
 ```ruby
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-filtered_numbers = numbers.select { |number| number % 3 == 0 }]
+filtered_numbers = numbers.select { |number| number % 3 == 0 }
 # filtered_numbers: [3, 6, 9]
 ```
 
