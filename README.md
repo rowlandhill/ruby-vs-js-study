@@ -12,6 +12,9 @@ that our task is simpler than it was when we introduced JavaScript. Instead of
 teaching you how to program, we'll focus on the *differences* between Ruby and
 JavaScript with the goal of utilizing the foundation we've already built.
 
+## Additional Resources
+-   [Ruby](https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/)
+
 ## Prerequisites
 
 -   [JavaScript Basics](https://github.com/ga-wdi-boston/js-basics)
