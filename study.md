@@ -49,9 +49,9 @@ graves (\`) rather than single quotation marks (') or double quotation marks
 (").  For example,
 
 ```javascript
-const beverage = 'tea'.
+const beverage = 'tea'
 
-console.log(`Many people drink ${beverage}.`);
+console.log(`Many people drink ${beverage}.`)
 // Output: Many people like to drink tea.
 ```
 
@@ -119,9 +119,9 @@ JavaScript.  Here is some Ruby code that takes an array of natural numbers and
 filters out the ones that are not multiples of 3.
 
 ```ruby
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-filtered_numbers = numbers.select { |number| number % 3 == 0 }]
+filtered_numbers = numbers.select { |number| number % 3 == 0 }
 # filtered_numbers: [3, 6, 9]
 ```
 
@@ -138,11 +138,11 @@ Here is some JavaScript code that takes an array of natural numbers and uses
 `map()` to create a new array containing the squares of `numbers`.
 
 ```javascript
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 const squares = numbers.map(number => {
-  return number ** 2;
-});
+  return number ** 2
+})
 
 // squares: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
